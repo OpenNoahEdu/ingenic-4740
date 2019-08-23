@@ -1,0 +1,199 @@
+
+[Device]
+Family = lc4k;
+PartNumber = LC4128V-75T144C;
+Package = 144TQFP;
+PartType = LC4128V;
+Speed = -7.5;
+Operating_condition = COM;
+Status = Production;
+EN_PinGLB = yes;
+EN_PinMacrocell = yes;
+
+[Revision]
+Parent = lc4k128v.lci;
+DATE = 04/07/2007;
+TIME = 12:16:42;
+Source_Format = Schematic_Verilog_HDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+
+[Location Assignments]
+layer = OFF;
+ADDR_21_ = Pin, 44, -, D, 8;
+ADDR_22_ = Pin, 43, -, D, 9;
+BOOT_SEL3 = Pin, 103, -, G, 2;
+BWE_N = Pin, 16, -, B, 14;
+CS1_N = Pin, 58, -, E, 0;
+CS2_N = Pin, 59, -, E, 1;
+CS3_N = Pin, 69, -, E, 12;
+CS4_N = Pin, 68, -, E, 10;
+DATA_0_ = Pin, 14, -, B, 12;
+DATA_1_ = Pin, 13, -, B, 10;
+DATA_2_ = Pin, 12, -, B, 9;
+DATA_3_ = Pin, 11, -, B, 8;
+DATA_4_ = Pin, 9, -, B, 6;
+DATA_5_ = Pin, 8, -, B, 5;
+DATA_6_ = Pin, 7, -, B, 4;
+DATA_7_ = Pin, 6, -, B, 2;
+FRE_N = Pin, 61, -, E, 4;
+FWE_N = Pin, 62, -, E, 5;
+GPD7 = Pin, 81, -, F, 6;
+JZUART_RXD = Pin, 77, -, F, 1;
+PWM2 = Pin, 50, -, D, 4;
+PWM6 = Pin, 51, -, D, 2;
+PWM7 = Pin, 53, -, D, 0;
+GPD6 = Pin, 80, -, F, 5;
+RTL8019_INT = Pin, 24, -, C, 10;
+SD_CD_N = Pin, 100, -, G, 6;
+SD_WP_N = Pin, 98, -, G, 8;
+UART_INT = Pin, 49, -, D, 5;
+BEN_N = Pin, 39, -, D, 14;
+CPLD_CS0 = Pin, 32, -, C, 1;
+CPLD_CS1 = Pin, 33, -, C, 0;
+CPLD_CS2 = Pin, 31, -, C, 2;
+CPLD_LED1 = Pin, 97, -, G, 9;
+CPLD_LED2 = Pin, 96, -, G, 10;
+CPLD_T1 = Pin, 25, -, C, 9;
+CPLD_T2 = Pin, 26, -, C, 8;
+DISP_OFF_N = Pin, 86, -, F, 12;
+FRB_N = Pin, 60, -, E, 2;
+GPD14 = Pin, 5, -, B, 1;
+GPD15 = Pin, 4, -, B, 0;
+GPD17 = Pin, 83, -, F, 8;
+IR_TXD = Pin, 133, -, A, 4;
+JZUART_TXD = Pin, 70, -, E, 13;
+LCD_PWM = Pin, 87, -, F, 13;
+LED_1A = Pin, 113, -, H, 12;
+LED_1B = Pin, 114, -, H, 10;
+LED_1C = Pin, 115, -, H, 9;
+LED_1D = Pin, 112, -, H, 13;
+LED_1E = Pin, 111, -, H, 14;
+LED_1F = Pin, 104, -, G, 1;
+LED_1G = Pin, 105, -, G, 0;
+LED_2A = Pin, 123, -, H, 2;
+LED_2B = Pin, 124, -, H, 1;
+LED_2C = Pin, 125, -, H, 0;
+LED_2D = Pin, 122, -, H, 4;
+LED_2E = Pin, 121, -, H, 5;
+LED_2F = Pin, 116, -, H, 8;
+LED_2G = Pin, 120, -, H, 6;
+NOR_CS_N = Pin, 67, -, E, 9;
+N_CS1_N = Pin, 142, -, A, 13;
+N_CS2_N = Pin, 143, -, A, 14;
+N_CS3_N = Pin, 30, -, C, 4;
+N_CS4_N = Pin, 29, -, C, 5;
+PWM3 = Pin, 52, -, D, 1;
+RESET = Pin, 66, -, E, 8;
+ROM_CS_N = Pin, 28, -, C, 6;
+RTL8019_CS_N = Pin, 15, -, B, 13;
+SD_VCC_3V_EN_N = Pin, 101, -, G, 5;
+UART_CS_N = Pin, 40, -, D, 13;
+GPD5 = Pin, 79, -, F, 4;
+FRB1_N = Pin, 140, -, A, 10;
+FRB2_N = Pin, 139, -, A, 9;
+GPD4 = Pin, 78, -, F, 2;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+NetList = VERILOG;
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+layer = OFF;
+
+[HSI Attributes]
+
+[Input Delay]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[Pin attributes list]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[pin lock limitation]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Attributes list setting]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[Dual Function Macrocell]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[ORP Bypass]
+
+[Register Powerup]
+
+[Constraint Version]
+version = 1.0;
+
+[Node attribute]
+layer = OFF;
+
+[SYMBOL/MODULE attribute]
+layer = OFF;
+
+[Nodal Constraints]
+layer = OFF;
